@@ -1,0 +1,22 @@
+{
+  "basics":{
+    "name":"GAYATHRI",
+    "email":"gayathrigorantla123@gmail.com",
+    "mobile":"999999999"
+  },
+  "EDUCATION":[
+{    "Degree":"B.Tech",
+    "Institute":"PSCMR",
+     "Data":["2015-2019","76%"]
+},
+
+{    "Degree":"Intermediate",
+    "Institute":"sri chaithanya Jr.college",
+     "Data":["2013-2015","88.4%"]
+},
+{    "Degree":"SSC",
+    "Institute":"LAHARI VIDYA MANDIR",
+     "Data":["2013","8.5GPA"]
+}
+]
+}

@@ -1,10 +1,13 @@
+a{
+  text-decoration: none;
+}
 .main{
   display:flex;
   flex-direction:row ;
   justify-content: center;
 }
 .personal{
-  width:30%;
+  max-width:30%;
   height:auto;
   border:1px solid #000;
   border-radius: 15px;
@@ -20,7 +23,7 @@ img{
 
 }
 .qualification{
-  width:70%;
+max-width:70%;
   border-radius: 15px;
   border:1px solid #000;
   box-shadow: 3px 3px 3px #000;
@@ -31,4 +34,110 @@ img{
 }
 h2{
   text-align: 15px left;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    a{font-size: 30px;}
+.main{
+  display:flex;
+  flex-direction:column;
+  /*flex-wrap:wrap;*/
+  justify-content: center;
+}
+.personal{
+max-width: 100%;
+  height:auto;
+  border:1px solid #000;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px #000;
+  padding:2%;
+  margin:2%;
+
+  background-color:  skyblue;
+}
+img{
+  width:150px;
+  height:150px;
+
+}
+.qualification{
+  max-width: 100%;
+  border-radius: 15px;
+  border:1px solid #000;
+  box-shadow: 3px 3px 3px #000;
+
+  padding:2%;
+  margin:2%;
+  background-color: pink;
+}
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  a{font-size: 50px;}
+.main{
+  display:flex;
+  flex-direction:column;
+  /*flex-wrap:wrap;*/
+  justify-content: center;
+}
+.personal{
+max-width: 100%;
+  height:auto;
+  border:1px solid #000;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px #000;
+  padding:2%;
+  margin:2%;
+
+  background-color: red;
+}
+img{
+  width:150px;
+  height:150px;
+
+}
+.qualification{
+  max-width: 100%;
+  border-radius: 15px;
+  border:1px solid #000;
+  box-shadow: 3px 3px 3px #000;
+
+  padding:2%;
+  margin:2%;
+  background-color: skyblue;
+}
+}
+@media only screen and (min-width:769px) and (max-width:1024px)
+{
+    a{font-size: 35px;}
+.main{
+  display:flex;
+  flex-direction:column;
+  /*flex-wrap:wrap;*/
+  justify-content: center;
+}
+.personal{
+max-width: 100%;
+  height:auto;
+  border:1px solid #000;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px #000;
+  padding:2%;
+  margin:2%;
+
+  background-color:  green;
+}
+img{
+  width:150px;
+  height:150px;
+
+}
+.qualification{
+  max-width: 100%;
+  border-radius: 15px;
+  border:1px solid #000;
+  box-shadow: 3px 3px 3px #000;
+
+  padding:2%;
+  margin:2%;
+  background-color: yellow;
+}
 }
